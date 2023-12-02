@@ -4,10 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sushiman</title>
-    <link rel="icon" href="/public/sushi.png" type="image/png" />
+    <link rel="icon" type="image/png" href="/sushi.png" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <script src="javascript/script.js" type="module"></script>
+    <header>
+      <nav class="header__nav">
+        <div class="header__logo">
+          <h4>Sushiman</h4>
+          <div class="header__logo-overlay"></div>
+        </div>
+        <ul class="header__menu">
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#food">Food</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#about-us">About Us</a>
+          </li>
+          <li>
+            <img src="assets/search.svg" alt="search" />
+          </li>
+        </ul>
+        <!-- mobile -->
+        <ul class="header__menu-mobile">
+          <li>
+            <img src="assets/menu.svg" alt="menu-mobile" />
+          </li>
+        </ul>
+      </nav>
+      <!-- end mobile  -->
+    </header>
+    <section class="hero">
+      <div class="hero-image">
+        <img src="assets/sushi-1.png" alt="" />
+        <h2>
+          日 <br />
+          本 <br />
+          食
+        </h2>
+        <div class="hero-image__overlay"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-content-info">
+          <h1>Fell the taste of Japanese food</h1>
+          <p>
+            Feel the taste of the most popular Japanese food from anywhere and
+            anytime
+          </p>
+        </div>
+      </div>
+    </section>
+    <script src="js/script.js" type="module"></script>
   </body>
 </html>
